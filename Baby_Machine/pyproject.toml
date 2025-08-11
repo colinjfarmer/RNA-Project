@@ -1,0 +1,18 @@
+[project]
+name = "Baby_Machine"
+version = "0.1.0"
+description = "singlecell analysis"
+requires-python = ">=3.9"
+dependencies = [
+  "scanpy",
+  "pandas",
+  "jupyterlab",
+  "seaborn",
+  "numpy",
+  "anndata",
+  "scikit-image",
+  "torch",
+  "numba>=0.60",
+  "ipykernel>=6.30.1",
+  "torchvision>=0.23.0",
+]
